@@ -1,0 +1,85 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #0a4685;
+}
+
+header {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    color: white;
+    background-color: #0a4685;
+    background-size: cover;
+    padding: 10px;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    margin: 0 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 80px;
+    background-color: #e8edf2c3;
+    border: #0a4685 solid 5px;
+    margin: 0;
+    padding: 20px;
+    width: fit-content;
+}
+
+.banner {
+    background-image: url("./images/building.jpg");
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(.7);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: 50% 35%;
+    color: #0a4685;
+    padding: 10%;
+    text-align: center;
+}
+
+.col-sm {
+    position: relative;
+    margin: 3%;
+    padding: 2%;
+    width: 40%;
+    background-color: #9ea5ab;
+    color: #0a4685;
+    height: auto;
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: #fff;
+    color: #0a4685;
+    width: 80%;
+    margin: 30px;
+}
+
+.content h3,
+p {
+    margin: 20px;
+}
