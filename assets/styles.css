@@ -55,17 +55,6 @@ h1 {
     text-align: center;
 }
 
-.col-sm {
-    position: relative;
-    margin: 3%;
-    padding: 2%;
-    width: 40%;
-    background-color: #9ea5ab;
-    color: #0a4685;
-    height: auto;
-    display: inline-block;
-}
-
 main {
     display: flex;
     justify-content: center;
@@ -76,7 +65,7 @@ main {
     color: #0a4685;
     width: 80%;
     margin: 30px;
-    padding-bottom: 2%;
+    padding: 2%;
 }
 
 .content h3,
@@ -112,9 +101,17 @@ h4 a {
     margin-top: 5%;
 }
 
+.project-links {
+    display: inline;
+}
+
 #bottom {
     display: flex;
     flex: end;
+}
+
+.row {
+    margin-bottom: 2%;
 }
 
 .row h5 {
@@ -124,9 +121,39 @@ h4 a {
 .carousel {
     width: 80%;
     margin: 25px auto 0px auto;
-    max-width: 940px;
+}
+
+.carousel-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.caption {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-caption {
+    padding: 10px 5px;
+    color: #0a4685;
+    font-weight: bold;
+    background-color: #9ea3a7bb;
+    text-align: center;
+    width: fit-content;
+}
+
+video {
+    margin-top: 5%;
+    width: 80%;
 }
 
 .border-primary {
     border: 5px solid #0a4685 !important;
+}
+
+.center h5 {
+    font-weight: bold;
+    margin-bottom: 30px;
 }
