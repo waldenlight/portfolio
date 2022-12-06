@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -156,4 +158,18 @@ video {
 .center h5 {
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.col-6 h5 {
+    margin-top: 30px;
+}
+
+.contact-info {
+    margin-top: 0;
+    margin-left: 5%;
+}
+
+i {
+    font-size: 600%;
+    margin: 0;
 }
