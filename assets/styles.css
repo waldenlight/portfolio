@@ -20,14 +20,22 @@ header {
     background-attachment: fixed;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
 }
 
 a {
     margin: 0 30px;
+    color: #0a4685 !important;
+    font-size: 20px !important;
 }
 
 h1 {
@@ -40,6 +48,39 @@ h1 {
     margin: 0;
     padding: 20px;
     width: fit-content;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-weight: 400;
+        font-size: 60px;
+    }
+
+    .col-9 h5 {
+        display: flex;
+        justify-content: end;
+    }
+
+    .project-links {
+        padding: 0 !important;
+        font-size: 15px !important;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    strong {
+        font-size: 12px;
+    }
+
+    .btn-outline-primary {
+        font-size: 10px !important;
+    }
+
+    .small-icons {
+        font-size: 25px !important;
+        margin: auto 5px;
+    }
+
 }
 
 .banner {
@@ -100,7 +141,7 @@ section h4 {
 }
 
 h4 a {
-    margin-top: 5%;
+    margin-top: 0%;
 }
 
 .project-links {
