@@ -27,22 +27,31 @@
         <h2>Walden Light's Portfolio</h2>
     </header>
 
-    <nav class="navbar navbar-expand-lg bg-light sticky-top navbar-custom">
-        <ul class="nav justify-content-center sticky-top">
-            <li class="nav-item">
-                <a role="button" class="btn btn-outline-primary" href="index.html">About
-                    Me</a>
-            </li>
-            <li class="nav-item">
-                <a role="button" class="btn btn-outline-primary" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a role="button" class="btn btn-outline-primary" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a role="button" class="btn btn-outline-primary" href="contact.html">Contact</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-expand-sm navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a role="button" class="btn" href="index.html">About
+                            Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a role="button" class="btn" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a role="button" class="btn" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a role="button" class="btn" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <div class="banner">
@@ -82,17 +91,38 @@
             </section>
 
             <section>
-                <h3>Hobbies</h3>
-                <p>
-                    In my freetime, I like to...
-                </p>
-                <ul>
-                    <li>Code!</li>
-                    <li>Box, Run, Climb, and Ski</li>
-                    <li>Play with my cat, Scout!</li>
-                    <li>Make Music</li>
-                    <li>Do photography</li>
-                </ul>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <h3>Hobbies</h3>
+                            <p>
+                                In my freetime, I like to...
+                            </p>
+                            <ul>
+                                <li>Code!</li>
+                                <li>Box, Run, Climb, and Ski</li>
+                                <li>Play with my cat, Scout!</li>
+                                <li>Make Music</li>
+                                <li>Do photography</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-8">
+                            <h3>Likes</h3>
+                            <p>
+                                My favorite...
+                            </p>
+                            <ul>
+                                <li>Musical Artist: Lute</li>
+                                <li>Ski Resort: Copper Mountain</li>
+                                <li>Book: The Myth of Sisyphus by Albert Camus</li>
+                                <li>Movie: Pursuit of Happyness</li>
+                                <li>TV Show: Breaking Bad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <h4>Examples of My Photography</h4>
                 <div class="carousel">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -126,20 +156,12 @@
             </section>
 
             <section>
-                <h3>Likes</h3>
-                <p>
-                    My favorite...
-                </p>
-                <ul>
-                    <li>Musical Artist: Lute</li>
-                    <li>Ski Resort: Copper Mountain</li>
-                    <li>Book: The Myth of Sisyphus by Albert Camus</li>
-                    <li>Movie: Pursuit of Happyness</li>
-                    <li>TV Show: Breaking Bad</li>
-                </ul>
                 <h3>Friends and Family</h3>
                 <p>
-                    I have a wonderful mother and father, a hilarious set of two brothers, and a caring sister. I have a
+                    I have a wonderful mother and father, a hilarious set of two brothers, and a caring
+                    sister.
+                    I
+                    have a
                     best friend, Brian, who I program and make music with. I also have three dogs and a cat.
                 </p>
             </section>
@@ -151,11 +173,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <a role="button" class="btn btn-outline-primary" href="index.html">About
+                    <a role="button" class="btn" href="index.html">About
                         Me</a>
-                    <a role="button" class="btn btn-outline-primary" href="resume.html">Resume</a>
-                    <a role="button" class="btn btn-outline-primary" href="portfolio.html">Portfolio</a>
-                    <a role="button" class="btn btn-outline-primary" href="contact.html">Contact</a>
+                    <a role="button" class="btn" href="resume.html">Resume</a>
+                    <a role="button" class="btn" href="portfolio.html">Portfolio</a>
+                    <a role="button" class="btn" href="contact.html">Contact</a>
                     <h2>Walden Light's Portfolio</h2>
                 </div>
                 <div class="col-6" id="footer-icons">
